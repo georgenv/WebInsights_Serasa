@@ -71,7 +71,8 @@ On Stocks_Yahoo directory run: `python3 yahoo_stocks_app.py`
 
   
 ### Request
-Make a POST request to the endpoint: **http://localhost:5000/stocks**\
+Make a POST request to the endpoint: **http://localhost:5000/stocks**
+
 List of available countries: **https://finance.yahoo.com/screener/new**
 
 **JSON body**:
