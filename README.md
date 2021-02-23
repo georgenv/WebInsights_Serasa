@@ -30,13 +30,13 @@ After installation:
 You must have installed on your machine:
 
 ```
-
 Python 3
 
 SQLite 3
 
 Python3-Pip
 
+Chrome WebDriver
 ```
 
   
@@ -46,7 +46,6 @@ Python packages:
   
 
 ```
-
 APScheduler==3.7.0
 
 Flask==1.1.2
@@ -58,7 +57,6 @@ pandas==1.2.2
 selenium==3.141.0
 
 SQLAlchemy==1.3.23
-
 ```
 
 Or simply run the following command using pip:
@@ -73,7 +71,7 @@ On Stocks_Yahoo directory run: `python3 yahoo_stocks_app.py`
 
   
 ### Request
-Make a POST request to the endpoint: **http://localhost:5000/stocks**
+Make a POST request to the endpoint: **http://localhost:5000/stocks**\
 List of available countries: **https://finance.yahoo.com/screener/new**
 
 **JSON body**:
